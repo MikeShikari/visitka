@@ -1,19 +1,19 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import About from '@/components/About.vue'
+import Skills from '@/components/About.vue'
+import AboutMe from '@/components/AboutMe.vue'
 const routes = [
   {
-    path: '/',
+    path: '/about_me',
     name: 'about',
-    component: About
+    component: AboutMe
   },
   {
-    path: '/about',
-    name: 'about',
+    path: '/skills',
+    name: 'skills',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: About
+    component: Skills
   }
 ]
 

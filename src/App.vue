@@ -13,7 +13,6 @@
 
 <script>
 import Navbar from '@/components/Navbar.vue'
-import About from '@/components/About.vue'
 
 export default {
   components: { Navbar }
@@ -35,7 +34,7 @@ export default {
 
 body {
   margin: 0px !important;
-  background-color: #150b28;
+  background: radial-gradient(#4237d6, 30%, #120b28) //  #150b28;
 }
 
 nav {

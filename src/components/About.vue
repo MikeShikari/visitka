@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="main_form">
-            <h1>Who am I?</h1>
+            <h1>What are my skills?</h1>
             <div class="all_forms">
                 <div class="info_block1">
                     <h2>Soft skills:</h2>
@@ -82,13 +82,13 @@ export default {
 
 <style>
 h1 {
-    color: #00c4ff;
+    color: #ffffff;
     font-size: 40px;
     letter-spacing: 3px;
 }
 
 h2 {
-    color: #8d24ff;
+    color: #4237d6;
     letter-spacing: 2px;
 }
 

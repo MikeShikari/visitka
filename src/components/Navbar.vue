@@ -7,10 +7,14 @@
         <div class="info">
             <div class="row">
                 <div class="a_block">
-                    <router-link to="/about"> ABOUT ME
+                    <router-link to="/about_me"> ABOUT ME
                         <div class="a_div"></div>
                     </router-link>
-
+                </div>
+                <div class="a_block">
+                    <router-link to="/skills"> MY SKILLS
+                        <div class="a_div"></div>
+                    </router-link>
                 </div>
                 <div class="a_block">
                     <router-link to="/achievements"> MY ACHIEVEMENTS
@@ -75,12 +79,12 @@ export default {
     bottom: -15px;
     right: 15%;
     width: 70%;
-    box-shadow: 0px 0px 5px 0px #8d24ff;
+    // box-shadow: 0px 0px 5px 0px #8d24ff;
     border-radius: 4px;
     height: 2.5px;
     opacity: 0;
     transition: all 0.5s ease;
-    background-color: #8d24ff;
+    // background-color: #8d24ff;
 }
 
 .a_block:hover .a_div {
@@ -90,13 +94,14 @@ export default {
     opacity: 1;
 }
 
-a.router-link-exact-active .a_div {
+a.router-link-active .a_div {
     bottom: -7px;
     opacity: 1;
 }
 
-.a_block:hover a.router-link-exact-active .a_div {
-    background-color: #8d24ff;
+.a_block:hover a.router-link-active .a_div {
+    background-color: #3226d4;
+    box-shadow: 0px 0px 5px 0px #3226d4;
     bottom: -7px;
     opacity: 1;
 }
@@ -106,13 +111,13 @@ a.router-link-exact-active .a_div {
         position: absolute;
         right: 15%;
         width: 70%;
-        box-shadow: 0px 0px 5px 0px #8d24ff;
+        box-shadow: 0px 0px 5px 0px #3226d4;
         border-radius: 4px;
         height: 2.5px;
         bottom: -7px;
         opacity: 1;
         transition: all 0.5s ease;
-        background-color: #8d24ff;
+        background-color: #3226d4;
     }
 
     // styles here
